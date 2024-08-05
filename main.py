@@ -58,7 +58,7 @@ def main():
             break
 
         else:
-            print('Такого рецепта нет')
+            print(f'Рецепта {dish_name} нет')
 
 
 if __name__ == '__main__':

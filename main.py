@@ -35,7 +35,7 @@ def get_shop_list_by_dishes(dishes, person_count):
 
     for person_dish in person_dishes:
         if ingredients_name.count(person_dish) > 1:
-            person_dishes[person_dish]['quantity'] *= 2
+            person_dishes[person_dish]['quantity'] *= ingredients_name.count(person_dish)
 
     return person_dishes
 
